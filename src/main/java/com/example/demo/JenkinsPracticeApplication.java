@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsPracticeApplication {
 public static final Logger logger=LoggerFactory.getLogger(JenkinsPracticeApplication.class);
 	
-	public static  helloWorldProgram() {
+	public static String helloWorldProgram() {
 		logger.info("1st Hello world program and testing in a logger");
 		return "Hello World";
 	}
